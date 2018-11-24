@@ -1,0 +1,11 @@
+framework module TheVaultFramework {
+  umbrella header "TheVaultFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module TheVaultFramework.Swift {
+    header "TheVaultFramework-Swift.h"
+    requires objc
+}
